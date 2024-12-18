@@ -7,7 +7,7 @@ export default function App() {
     <View style={styles.container}>
       <Top />
       <Bottom />
-      <StatusBar />
+      <StatusBar backgroundColor="rgba(0,0,0,1)" translucent={true} hidden={true} />
     </View>
   );
 }
